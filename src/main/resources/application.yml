@@ -29,6 +29,11 @@ spring:
     console:
       enabled: false
 
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: localhost:9300
+
 server:
   port: ${PORT:8080}
 
